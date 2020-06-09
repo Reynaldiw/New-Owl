@@ -9,21 +9,19 @@
 /* Begin PBXBuildFile section */
 		5324F091248E2AEC00DC3286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5324F090248E2AEC00DC3286 /* AppDelegate.swift */; };
 		5324F093248E2AEC00DC3286 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5324F092248E2AEC00DC3286 /* SceneDelegate.swift */; };
-		5324F095248E2AEC00DC3286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5324F094248E2AEC00DC3286 /* ViewController.swift */; };
-		5324F098248E2AEC00DC3286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5324F096248E2AEC00DC3286 /* Main.storyboard */; };
 		5324F09A248E2AED00DC3286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5324F099248E2AED00DC3286 /* Assets.xcassets */; };
 		5324F09D248E2AED00DC3286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5324F09B248E2AED00DC3286 /* LaunchScreen.storyboard */; };
+		5324F0A5248F892600DC3286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5324F0A4248F892600DC3286 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5324F08D248E2AEC00DC3286 /* New Owl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Owl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5324F090248E2AEC00DC3286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5324F092248E2AEC00DC3286 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5324F094248E2AEC00DC3286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5324F097248E2AEC00DC3286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5324F099248E2AED00DC3286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5324F09C248E2AED00DC3286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5324F09E248E2AED00DC3286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5324F0A4248F892600DC3286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +56,10 @@
 			children = (
 				5324F090248E2AEC00DC3286 /* AppDelegate.swift */,
 				5324F092248E2AEC00DC3286 /* SceneDelegate.swift */,
-				5324F094248E2AEC00DC3286 /* ViewController.swift */,
-				5324F096248E2AEC00DC3286 /* Main.storyboard */,
 				5324F099248E2AED00DC3286 /* Assets.xcassets */,
 				5324F09B248E2AED00DC3286 /* LaunchScreen.storyboard */,
 				5324F09E248E2AED00DC3286 /* Info.plist */,
+				5324F0A4248F892600DC3286 /* ViewController.swift */,
 			);
 			path = "New Owl";
 			sourceTree = "<group>";
@@ -127,7 +124,6 @@
 			files = (
 				5324F09D248E2AED00DC3286 /* LaunchScreen.storyboard in Resources */,
 				5324F09A248E2AED00DC3286 /* Assets.xcassets in Resources */,
-				5324F098248E2AEC00DC3286 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5324F095248E2AEC00DC3286 /* ViewController.swift in Sources */,
+				5324F0A5248F892600DC3286 /* ViewController.swift in Sources */,
 				5324F091248E2AEC00DC3286 /* AppDelegate.swift in Sources */,
 				5324F093248E2AEC00DC3286 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5324F096248E2AEC00DC3286 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5324F097248E2AEC00DC3286 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5324F09B248E2AED00DC3286 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YKPQ92PAK3;
 				INFOPLIST_FILE = "New Owl/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YKPQ92PAK3;
 				INFOPLIST_FILE = "New Owl/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
